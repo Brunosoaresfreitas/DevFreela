@@ -1,7 +1,9 @@
 ﻿using DevFreela.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System.Reflection.Emit;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace DevFreela.Infrastructure.Persistence.Configurations
 {
@@ -12,14 +14,14 @@ namespace DevFreela.Infrastructure.Persistence.Configurations
             builder
                 .HasKey(p => p.Id);
 
-            builder  // Relacionamento com o Project
-                .HasOne(p => p.Project)  // Tem um projeto
-                .WithMany(p => p.Comments)  // E um projeto tem uma lista de comments
+            builder
+                .HasOne(p => p.Project)
+                .WithMany(p => p.Comments)
                 .HasForeignKey(p => p.IdProject);
 
-            builder  // Relacionamento com o usuário
-                .HasOne(p => p.User)  // Tem um usuário
-                .WithMany(p => p.Comments)  // E um usuário tem uma lista de comments
+            builder
+                .HasOne(p => p.User)
+                .WithMany(p => p.Comments)
                 .HasForeignKey(p => p.IdUser);
         }
     }

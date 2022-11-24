@@ -1,4 +1,7 @@
 ﻿using DevFreela.Core.Enums;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace DevFreela.Core.Entities
 {
@@ -29,21 +32,12 @@ namespace DevFreela.Core.Entities
         public DateTime? FinishedAt { get; private set; }
         public ProjectStatusEnum Status { get; private set; }
         public List<ProjectComment> Comments { get; private set; }
-        
+
         public void Cancel()
         {
-            if (Status == ProjectStatusEnum.InProgress)
+            if (Status == ProjectStatusEnum.InProgress || Status == ProjectStatusEnum.InProgress)
             {
                 Status = ProjectStatusEnum.Cancelled;
-            }
-        }
-
-        public void Finish()
-        {
-            if (Status == ProjectStatusEnum.InProgress)
-            {
-                Status = ProjectStatusEnum.Finished;
-                FinishedAt = DateTime.Now;
             }
         }
 
@@ -53,6 +47,15 @@ namespace DevFreela.Core.Entities
             {
                 Status = ProjectStatusEnum.InProgress;
                 StartedAt = DateTime.Now;
+            }
+        }
+
+        public void Finish()
+        {
+            if (Status == ProjectStatusEnum.InProgress)
+            {
+                Status = ProjectStatusEnum.Finished;
+                FinishedAt = DateTime.Now;
             }
         }
 

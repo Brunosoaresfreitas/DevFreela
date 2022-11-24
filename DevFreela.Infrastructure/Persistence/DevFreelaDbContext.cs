@@ -1,15 +1,14 @@
 ﻿using DevFreela.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace DevFreela.Infrastructure.Persistence
 {
     public class DevFreelaDbContext : DbContext
     {
-        public DevFreelaDbContext(DbContextOptions<DevFreelaDbContext> options)
-            : base(options)
+        public DevFreelaDbContext(DbContextOptions<DevFreelaDbContext> options) : base(options)
         {
+
         }
 
         public DbSet<Project> Projects { get; set; }
@@ -22,10 +21,7 @@ namespace DevFreela.Infrastructure.Persistence
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
-
-        // 1° migration rodada:
+        // 1° migration rodada: 
         // dotnet ef migrations add InitialMigration -s../DevFreela.API/DevFreela.API.csproj -o./Persistence/Migrations
     }
 }
-
-

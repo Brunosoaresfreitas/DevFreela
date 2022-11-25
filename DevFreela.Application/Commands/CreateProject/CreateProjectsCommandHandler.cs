@@ -1,22 +1,17 @@
 ﻿using DevFreela.Core.Entities;
-using DevFreela.Infrastructure.Persistence;
+using DevFreela.Core.Repositories;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DevFreela.Application.Commands.CreateProject
 {
     public class CreateProjectsCommandHandler : IRequestHandler<CreateProjectCommand, int>
         // Os parametros são o próprio command e o tipo de resposta que está no command (retorno)
     {
-        private readonly DevFreelaDbContext _dbContext;
+        private readonly IProjectRepository _projectRepository;
 
-        public CreateProjectsCommandHandler(DevFreelaDbContext dbContext)
+        public CreateProjectsCommandHandler(IProjectRepository projectRepository)
         {
-            _dbContext = dbContext; 
+            _projectRepository = projectRepository; 
         }
 
 
@@ -24,9 +19,8 @@ namespace DevFreela.Application.Commands.CreateProject
         {
             var project = new Project(request.Title, request.Description, request.IdClient, request.IdFreelancer, request.TotalCost);
 
-            await _dbContext.Projects.AddAsync(project);
-            await _dbContext.SaveChangesAsync();
-
+            await _projectRepository.AddAsync(project);
+            
             return project.Id;
         }
     }

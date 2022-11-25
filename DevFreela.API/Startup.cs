@@ -1,6 +1,8 @@
 ﻿using DevFreela.API.Models;
 using DevFreela.Application.Commands.CreateProject;
+using DevFreela.Core.Repositories;
 using DevFreela.Infrastructure.Persistence;
+using DevFreela.Infrastructure.Persistence.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -23,7 +25,11 @@ namespace DevFreela.API
 
             services.AddDbContext<DevFreelaDbContext>
                 (options => options.UseSqlServer(connectionString));
-                
+
+            services.AddScoped<IProjectRepository, ProjectRepository>();
+            services.AddScoped<ISkillRepository, SkillRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+
             services.AddControllers();
 
             // Vai buscar todas as classes/comandos que implementem IRequest e associá-los ao commands

@@ -1,10 +1,5 @@
-﻿using DevFreela.Application.Commands.Finish;
-using DevFreela.Core.Repositories;
-using DevFreela.Infrastructure.Persistence;
+﻿using DevFreela.Core.Repositories;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace DevFreela.Application.Commands.FinishProject
 {

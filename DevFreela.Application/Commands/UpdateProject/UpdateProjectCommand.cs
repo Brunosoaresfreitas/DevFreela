@@ -1,10 +1,11 @@
-﻿using System;
+﻿using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DevFreela.Application.InputModels
+namespace DevFreela.Application.Commands.UpdateProject
 {
-    public class UpdateProjectInputModel
+    public class UpdateProjectCommand : IRequest<Unit>
     {
         public int Id { get; set; }
         public string Title { get; set; }

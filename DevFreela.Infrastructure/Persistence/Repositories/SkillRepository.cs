@@ -8,8 +8,7 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
 {
     public class SkillRepository : ISkillRepository
     {
-        private readonly string _connectionString;  // Utilizando o dapper
-
+        private readonly string _connectionString;
         public SkillRepository(IConfiguration configuration)
         {
             _connectionString = configuration.GetConnectionString("DevFreelaCs");
@@ -17,7 +16,6 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
 
         public async Task<List<SkillDTO>> GetAllAsync()
         {
-            // Utilizando o dapper
             using (var sqlConnection = new SqlConnection(_connectionString))
             {
                 sqlConnection.Open();
@@ -29,15 +27,14 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
                 return skills.ToList();
             }
 
-            // COM EF CORE:
+            // COM EF CORE
+            //var skills = _dbContext.Skills;
 
-            // var skills = _dbContext.Skills;
-
-            // var skillsViewModel = skills
+            //var skillsViewModel = skills
             //    .Select(s => new SkillViewModel(s.Id, s.Description))
             //    .ToList();
 
-            // return skillsViewModel;
+            //return skillsViewModel;
         }
     }
 }

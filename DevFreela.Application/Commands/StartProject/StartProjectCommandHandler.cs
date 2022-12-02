@@ -1,7 +1,4 @@
-﻿using Dapper;
-using DevFreela.Application.Commands.Start;
-using DevFreela.Core.Repositories;
-using DevFreela.Infrastructure.Persistence;
+﻿using DevFreela.Core.Repositories;
 using MediatR;
 
 namespace DevFreela.Application.Commands.StartProject

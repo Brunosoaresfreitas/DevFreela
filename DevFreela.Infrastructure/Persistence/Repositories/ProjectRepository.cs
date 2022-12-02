@@ -22,19 +22,12 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
             return await _dbContext.Projects.ToListAsync();
         }
 
-        public async Task<Project> GetByIdAsync(int id)
-        {
-            return await _dbContext.Projects.SingleOrDefaultAsync(p => p.Id == id);
-        }
-
         public async Task<Project> GetDetailsByIdAsync(int id)
         {
-#pragma warning disable CS8603 // Possible null reference return.
             return await _dbContext.Projects
                 .Include(p => p.Client)
                 .Include(p => p.Freelancer)
                 .SingleOrDefaultAsync(p => p.Id == id);
-#pragma warning restore CS8603 // Possible null reference return.
         }
 
         public async Task AddAsync(Project project)
@@ -44,7 +37,7 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
         }
 
         public async Task StartAsync(Project project)
-        { 
+        {
             using (var sqlConnection = new SqlConnection(_connectionString))
             {
                 sqlConnection.Open();
@@ -60,9 +53,14 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task AddCommentAsync(ProjectComment comment)
+        public async Task<Project> GetByIdAsync(int id)
         {
-            await _dbContext.ProjectComments.AddAsync(comment);
+            return await _dbContext.Projects.SingleOrDefaultAsync(p => p.Id == id);
+        }
+
+        public async Task AddCommentAsync(ProjectComment projectComment)
+        {
+            await _dbContext.ProjectComments.AddAsync(projectComment);
             await _dbContext.SaveChangesAsync();
         }
     }

@@ -23,5 +23,9 @@ namespace DevFreela.Infrastructure.Persistence
         }
         // 1° migration rodada: 
         // dotnet ef migrations add InitialMigration -s../DevFreela.API/DevFreela.API.csproj -o./Persistence/Migrations
+
+        // 2° migration
+        // dotnet ef migrations add AddLoginColumns -s ../DevFreela.API/DevFreela.API.csproj
+        // dotnet ef database update -s ../DevFreela.API/DevFreela.API.csproj
     }
 }

@@ -90,3 +90,7 @@ C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\Dapper.dll
 C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\MediatR.dll
 C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\FluentValidation.dll
+C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -94,3 +94,4 @@ C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\FluentValidation.dll
 C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\ProjetosCS\DevFreela\DevFreela.API\bin\Debug\net6.0\Microsoft.Extensions.Http.dll

@@ -16,6 +16,7 @@ using DevFreela.Infrastructure.Auth;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using DevFreela.Infrastructure.Payments;
 
 namespace DevFreela.API
 {
@@ -35,11 +36,14 @@ namespace DevFreela.API
 
             services.AddDbContext<DevFreelaDbContext>
                 (options => options.UseSqlServer(connectionString));
+ 
+            services.AddHttpClient();
 
             services.AddScoped<IProjectRepository, ProjectRepository>();
             services.AddScoped<ISkillRepository, SkillRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IPaymentService, PaymentService>();
 
             services.AddControllers(options => options.Filters.Add(typeof(ValidationFilter)));
             // Adicionando o Filter para validação, isso faz com que o ValidationFilter definido na classe

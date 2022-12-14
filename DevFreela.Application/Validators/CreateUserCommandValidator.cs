@@ -20,9 +20,6 @@ namespace DevFreela.Application.Validators
                 .NotEmpty()
                 .NotNull()
                 .WithMessage("Nome é obrigatório!");
-
-            RuleFor(p => p.Role)
-                .IsInEnum
         }
 
         public bool ValidPassword(string password)

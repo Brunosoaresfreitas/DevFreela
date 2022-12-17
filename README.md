@@ -18,7 +18,13 @@ Projeto desenvolvido durante o curso Formação ASP .NET Core - ministrado pelo 
 
 ## 🎯 Funcionalidades
 
-✔️ ``Cadastrar / Atualizar e Excluir usuários``
+✔️ Cadastro de usuários com perfil de cliente / freelancer
+✔️ Login dos usuários
+✔️ Excluir / atualizar usuários
+✔️ Cadastrar / atualizar/ excluir /consultar um projeto de freelancer
+✔️ Inicializar / finalizar um projeto
+✔️ Adicionar comentários a um projeto de freelancer
+
 ## 🚀 Como executar o projeto
 
 ### 📋 Pré-requisitos
@@ -110,7 +116,8 @@ As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
 
 
 ## ✒️ Autores
-
+- Bruno Henrique
+<a href="https://www.linkedin.com/in/bruno-henrique-soares-de-freitas-32ab85243/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 
 ## 📁 Acesso ao projeto
 Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/Brunosoaresfreitas/DevFreela).

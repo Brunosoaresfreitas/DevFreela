@@ -4,7 +4,7 @@
 
 # Índice 
 
-* [Sobre o projeto](#[sobre-o-projeto](https://github.com/Brunosoaresfreitas/DevFreela/blob/main/README.md#-sobre-o-projeto))
+* [Sobre o projeto](#https://github.com/Brunosoaresfreitas/DevFreela/blob/main/README.md#-sobre-o-projeto)
 * [Badges](#badges)
 * [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)

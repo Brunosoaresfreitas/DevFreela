@@ -106,9 +106,11 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [Maven](https://maven.apache.org/) - Gerente de Dependência
 * [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
 
-## 🖇️ Colaborando
+## ✔️ Técnicas e tecnologias utilizadas
 
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+```
+.Net
+```
 
 ## 📌 Versão
 

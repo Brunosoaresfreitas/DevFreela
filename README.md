@@ -117,6 +117,7 @@ As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
 
 ## ✒️ Autores
 - Bruno Henrique
+- 
 <a href="https://www.linkedin.com/in/bruno-henrique-soares-de-freitas-32ab85243/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 
 ## 📁 Acesso ao projeto

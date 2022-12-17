@@ -15,7 +15,6 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 Antes de executar o projeto, é necessário ter instalado em sua máquina local as seguintes ferramentas:
 
 GIT
-
 .NET
 
 E também algum editor para trabalhar com o código, como por exemplo o Microsoft Visual Studio

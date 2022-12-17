@@ -12,7 +12,15 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+Antes de executar o projeto, é necessário ter instalado em sua máquina local as seguintes ferramentas:
+
+GIT
+
+.NET
+
+E também algum editor para trabalhar com o código, como por exemplo o Microsoft Visual Studio
+
+## 🎲 Executando a API - Passo a passo
 
 ```
 # Clone este repositório
@@ -22,15 +30,18 @@ $ git clone https://github.com/Brunosoaresfreitas/DevFreela
 $ cd DevFreela
 
 # Vá para a pasta API
-$ cd server
+$ cd DevFreela.API
 
 # Instale as dependências
 $ dotnet restore
 
-# Execute a aplicação em modo de desenvolvimento
+# Realize o build do projeto
+$ dotnet build
+
+# Execute a aplicação 
 $ dotnet run
 
-# O servidor inciará na porta:5000 - acesse http://localhost:5000
+# O servidor inciará na porta:7140 - acesse http://localhost:7140
 ```
 
 ### 🔧 Instalação

@@ -26,7 +26,7 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 
 Antes de executar o projeto, é necessário ter instalado em sua máquina local as seguintes ferramentas:
 
-GIT
+[GIT](https://git-scm.com/).
 
 .NET
 
@@ -98,7 +98,7 @@ Dar exemplos
 
 Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
-## 🛠️ Construído com
+## 🛠️ Tecnologias
 
 As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
 
@@ -109,15 +109,6 @@ As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
 ✔️ ``Entity Framework``
 
 ✔️ ``SQL Server``
-
-## ✔️ Tecnologias
-
-As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
-
-- ``C#``
-- ``ASP.NET Core Web API``
-- ``Entity Framework``
-- ``SQL Server``
 
 ## 📌 Versão
 

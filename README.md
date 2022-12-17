@@ -106,10 +106,21 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [Maven](https://maven.apache.org/) - Gerente de Dependência
 * [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
 
-## ✔️ Técnicas e tecnologias utilizadas
+## ✔️ Tecnologias
+
+As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
 
 ```
-.Net
+.C#
+```
+```
+.ASP.NET Core Web API
+```
+```
+.Entity Framework
+```
+```
+.SQL Server
 ```
 
 ## 📌 Versão

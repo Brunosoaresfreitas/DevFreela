@@ -6,8 +6,8 @@
 
 * [Sobre o projeto](#-sobre-o-projeto)
 * [Funcionalidades](#-funcionalidades)
-* [Como executar](#índice)
-* [Tecnologias](#tecnologias)
+* [Como executar](#-como-executar-o-projeto)
+* [Tecnologias](#-tecnologias)
 * [Autores](#-autores)
 * [Acessar o Projeto](#-acesso-ao-projeto)
 

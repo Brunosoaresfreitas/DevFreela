@@ -26,11 +26,10 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 
 Antes de executar o projeto, é necessário ter instalado em sua máquina local as seguintes ferramentas:
 
-[GIT](https://git-scm.com/).
+[Git](https://git-scm.com/)
 
-.NET
+Algum editor para trabalhar com o código, como por exemplo o [Visual Studio](https://visualstudio.microsoft.com/pt-br/) com a carga de trabalho de desenvolvimento Web e do ASP.NET.
 
-E também algum editor para trabalhar com o código, como por exemplo o Microsoft Visual Studio
 
 ## 🎲 Executando a API - Passo a passo
 

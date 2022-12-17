@@ -14,7 +14,22 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 De que coisas você precisa para instalar o software e como instalá-lo?
 
 ```
-Dar exemplos
+# Clone este repositório
+$ git clone https://github.com/Brunosoaresfreitas/DevFreela
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd DevFreela
+
+# Vá para a pasta API
+$ cd server
+
+# Instale as dependências
+$ dotnet restore
+
+# Execute a aplicação em modo de desenvolvimento
+$ dotnet run
+
+# O servidor inciará na porta:5000 - acesse http://localhost:5000
 ```
 
 ### 🔧 Instalação

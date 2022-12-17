@@ -1,7 +1,5 @@
-﻿ using DevFreela.API.Models;
-using DevFreela.Application.Validators;
+﻿using DevFreela.Application.Validators;
 using DevFreela.Application.Commands.CreateProject;
-using DevFreela.Application.Commands.CreateUser;
 using DevFreela.Core.Repositories;
 using DevFreela.Infrastructure.Persistence;
 using DevFreela.Infrastructure.Persistence.Repositories;
@@ -17,6 +15,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using DevFreela.Infrastructure.Payments;
+using DevFreela.Infrastructure.MessageBus;
+using DevFreela.Application.Consumers;
 
 namespace DevFreela.API
 {
@@ -44,6 +44,9 @@ namespace DevFreela.API
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IPaymentService, PaymentService>();
+            services.AddScoped<IMessageBusService, MessageBusService>();
+
+            services.AddHostedService<PaymentApprovedConsumer>();
 
             services.AddControllers(options => options.Filters.Add(typeof(ValidationFilter)));
             // Adicionando o Filter para validação, isso faz com que o ValidationFilter definido na classe

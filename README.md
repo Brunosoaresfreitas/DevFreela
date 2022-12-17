@@ -24,9 +24,7 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 
 ### 📋 Pré-requisitos
 
-Antes de executar o projeto, é necessário ter instalado em sua máquina local as seguintes ferramentas:
-
-[Git](https://git-scm.com/)
+Antes de executar o projeto, é necessário ter instalado em sua máquina local as seguintes ferramentas: [Git](https://git-scm.com/)
 
 Algum editor para trabalhar com o código, como por exemplo o [Visual Studio](https://visualstudio.microsoft.com/pt-br/) com a carga de trabalho de desenvolvimento Web e do ASP.NET.
 

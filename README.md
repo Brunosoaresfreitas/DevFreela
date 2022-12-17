@@ -110,18 +110,10 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
 
-```
-.C#
-```
-```
-.ASP.NET Core Web API
-```
-```
-.Entity Framework
-```
-```
-.SQL Server
-```
+- ``C#``
+- ``ASP.NET Core Web API``
+- ``Entity Framework``
+- ``SQL Server``
 
 ## 📌 Versão
 

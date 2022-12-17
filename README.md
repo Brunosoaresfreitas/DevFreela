@@ -1,6 +1,7 @@
 # DEV FREELA
 
 Dev Freela -> Plataforma para cadastro e contratação de freelancers.
+
 Projeto desenvolvido durante o curso Formação ASP .NET Core - ministrado pelo Luis Dev.
 
 ## 🚀 Começando

@@ -8,7 +8,7 @@
 * [Badges](#badges)
 * [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
-* [Status do Projeto](#-vers%C3%A3o))
+* [Status do Projeto](#-vers%C3%A3o)
 
 ## 💻 Sobre o projeto
 

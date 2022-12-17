@@ -4,7 +4,7 @@
 
 # Índice 
 
-* [Sobre o projeto](#Sobre o projeto)
+* [Sobre o projeto](#sobre-o-projeto)
 * [Badges](#badges)
 * [Índice](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)

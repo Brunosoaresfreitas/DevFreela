@@ -2,6 +2,14 @@
 
 ## <p align="center">![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=GREEN&style=for-the-badge)</p>
 
+# Índice 
+
+* [Sobre o projeto](#Sobre o projeto)
+* [Badges](#badges)
+* [Índice](#índice)
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Status do Projeto](#status-do-Projeto)
+
 ## 💻 Sobre o projeto
 
 Dev Freela -> Plataforma para cadastro e contratação de freelancers.

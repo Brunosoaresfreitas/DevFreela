@@ -103,8 +103,11 @@ Adicione notas adicionais sobre como implantar isso em um sistema ativo
 As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
 
 ✔️ ``C#``
+
 ✔️ ``ASP.NET Core Web API``
+
 ✔️ ``Entity Framework``
+
 ✔️ ``SQL Server``
 
 ## ✔️ Tecnologias

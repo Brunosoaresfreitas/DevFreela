@@ -16,11 +16,7 @@ Dev Freela -> Plataforma para cadastro e contratação de freelancers.
 
 Projeto desenvolvido durante o curso Formação ASP .NET Core - ministrado pelo Luis Dev.
 
-## 🚀 Começando
-
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+## 🚀 Como executar o projeto
 
 ### 📋 Pré-requisitos
 

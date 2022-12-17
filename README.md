@@ -7,7 +7,7 @@
 * [Sobre o projeto](#-sobre-o-projeto)
 * [Funcionalidades](#-funcionalidades)
 * [Como executar](#-como-executar-o-projeto)
-* [Tecnologias](#-tecnologias)
+* [Tecnologias](https://github.com/Brunosoaresfreitas/DevFreela/blob/main/README.md#%EF%B8%8F-tecnologias)
 * [Autores](#-autores)
 * [Acessar o Projeto](#-acesso-ao-projeto)
 

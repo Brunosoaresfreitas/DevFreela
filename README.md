@@ -5,7 +5,7 @@
 # Índice 
 
 * [Sobre o projeto](#-sobre-o-projeto)
-* [Funcionalidades](#badges)
+* [Funcionalidades](#-funcionalidades)
 * [Como executar](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#-vers%C3%A3o)

@@ -8,7 +8,7 @@
 * [Funcionalidades](#-funcionalidades)
 * [Como executar](#-como-executar-o-projeto)
 * [Tecnologias](https://github.com/Brunosoaresfreitas/DevFreela/blob/main/README.md#%EF%B8%8F-tecnologias)
-* [Autores](#-autores)
+* [Autores](https://github.com/Brunosoaresfreitas/DevFreela/blob/main/README.md#%EF%B8%8F-autores)
 * [Acessar o Projeto](#-acesso-ao-projeto)
 
 ## 💻 Sobre o projeto

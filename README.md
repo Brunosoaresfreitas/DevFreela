@@ -66,15 +66,21 @@ $ dotnet run
 
 ## 🛠️ Tecnologias
 
-As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
+As seguintes tecnologias e métodos foram utilizadas durante o desenvolvimento do projeto
 
 - ``C#``
 
 - ``ASP.NET Core Web API``
 
-- ``Entity Framework``
+- ``Entity Framework Core``
 
 - ``SQL Server``
+
+- ``Arquitetura Limpa``
+
+- ``Padrão CQRS``
+
+- ``Padrão Repository``
 
 ## ✒️ Autores
 - Bruno Henrique

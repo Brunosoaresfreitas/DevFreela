@@ -1,4 +1,4 @@
-# <h1 align="center"> DEV FREELA </h1> DEV FREELA
+# <h1 align="center"> DEV FREELA </h1>
 
 ## 💻 Sobre o projeto
 

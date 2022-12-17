@@ -19,11 +19,17 @@ Projeto desenvolvido durante o curso Formação ASP .NET Core - ministrado pelo 
 ## 🎯 Funcionalidades
 
 ✔️ Cadastro de usuários com perfil de cliente / freelancer
+
 ✔️ Login dos usuários
+
 ✔️ Excluir / atualizar usuários
+
 ✔️ Cadastrar / atualizar/ excluir /consultar um projeto de freelancer
+
 ✔️ Inicializar / finalizar um projeto
+
 ✔️ Adicionar comentários a um projeto de freelancer
+
 
 ## 🚀 Como executar o projeto
 
@@ -58,48 +64,6 @@ $ dotnet run
 # O servidor inciará na porta:7140 - acesse http://localhost:7140
 ```
 
-### 🔧 Instalação
-
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
-
-Diga como essa etapa será:
-
-```
-Dar exemplos
-```
-
-E repita:
-
-```
-Até finalizar
-```
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
-
 ## 🛠️ Tecnologias
 
 As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
@@ -112,9 +76,6 @@ As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
 
 - ``SQL Server``
 
-## 📌 Versão
-
-
 ## ✒️ Autores
 - Bruno Henrique
 
@@ -122,8 +83,3 @@ As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
 
 ## 📁 Acesso ao projeto
 Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/Brunosoaresfreitas/DevFreela).
-
-## 🎁 Expressões de gratidão
-
----
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊

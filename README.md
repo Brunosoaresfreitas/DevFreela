@@ -5,8 +5,8 @@
 # Índice 
 
 * [Sobre o projeto](#-sobre-o-projeto)
-* [Badges](#badges)
-* [Índice](#índice)
+* [Funcionalidades](#badges)
+* [Como executar](#índice)
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#-vers%C3%A3o)
 
@@ -16,6 +16,9 @@ Dev Freela -> Plataforma para cadastro e contratação de freelancers.
 
 Projeto desenvolvido durante o curso Formação ASP .NET Core - ministrado pelo Luis Dev.
 
+## 🎯 Funcionalidades
+
+✔️ ``Cadastrar / Atualizar e Excluir usuários``
 ## 🚀 Como executar o projeto
 
 ### 📋 Pré-requisitos
@@ -95,13 +98,13 @@ Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 As seguintes tecnologias foram utilizadas durante o desenvolvimento do projeto
 
-✔️ ``C#``
+- ``C#``
 
-✔️ ``ASP.NET Core Web API``
+- ``ASP.NET Core Web API``
 
-✔️ ``Entity Framework``
+- ``Entity Framework``
 
-✔️ ``SQL Server``
+- ``SQL Server``
 
 ## 📌 Versão
 

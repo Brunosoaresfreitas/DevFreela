@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using DevFreela.Core.Entities;
 using DevFreela.Core.Repositories;
+using DevFreela.Infrastructure.Core.Models;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -9,6 +10,7 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
 {
     public class ProjectRepository : IProjectRepository
     {
+        private const int PAGE_SIZE = 2;
         private readonly DevFreelaDbContext _dbContext;
         private readonly string _connectionString;
         public ProjectRepository(DevFreelaDbContext dbContext, IConfiguration configuration)
@@ -17,7 +19,7 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
             _connectionString = configuration.GetConnectionString("DevFreelaCs");
         }
 
-        public async Task<List<Project>> GetAllAsync(string query)
+        public async Task<PaginationResult<Project>> GetAllAsync(string query, int page)
         {
             IQueryable<Project> projects = _dbContext.Projects;
 
@@ -28,7 +30,7 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
                         p.Title.Contains(query) ||
                         p.Description.Contains(query));
             }
-            return await projects.ToListAsync();
+            return await projects.GetPaged<Project>(page, PAGE_SIZE);
         }
             
         public async Task<Project> GetDetailsByIdAsync(int id)
@@ -42,7 +44,6 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
         public async Task AddAsync(Project project)
         {
             await _dbContext.Projects.AddAsync(project);
-            await _dbContext.SaveChangesAsync();
         }
 
         public async Task StartAsync(Project project)

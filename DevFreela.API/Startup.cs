@@ -45,6 +45,7 @@ namespace DevFreela.API
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IPaymentService, PaymentService>();
             services.AddScoped<IMessageBusService, MessageBusService>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddHostedService<PaymentApprovedConsumer>();
 

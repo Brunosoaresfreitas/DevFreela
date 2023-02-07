@@ -1,9 +1,11 @@
 ﻿using DevFreela.Core.Repositories;
+using Microsoft.EntityFrameworkCore.Storage;
 
 namespace DevFreela.Infrastructure.Persistence.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {
+        private IDbContextTransaction _transaction;
         private readonly DevFreelaDbContext _context;
         public UnitOfWork(
             DevFreelaDbContext context,
@@ -22,6 +24,24 @@ namespace DevFreela.Infrastructure.Persistence.Repositories
         public IUserRepository Users { get; }
 
         public ISkillRepository Skills { get; }
+
+        public async Task BeginTrancationAsync()
+        {
+            _transaction = await _context.Database.BeginTransactionAsync();
+        }
+
+        public async Task CommitAsync()
+        {
+            try
+            {
+                await _transaction.CommitAsync();
+            }
+            catch(Exception ex)
+            {
+                await _transaction.RollbackAsync();
+                throw ex;
+            }
+        }
 
         public async Task<int> CompleteAsync()
         {
